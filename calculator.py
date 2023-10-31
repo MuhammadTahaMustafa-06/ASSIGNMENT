@@ -4,8 +4,7 @@ def Calculator(a,b,oper):
     elif oper=="-":
         return a-b
     elif oper=="*":
-        return a/b
+        return float(a)*b
     elif oper=="/":
         return float(a)/float(b)
 print(Calculator(5,6,"/"))
-print("TAHA MADE SECOND CHANGE")
